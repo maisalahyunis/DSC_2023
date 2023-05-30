@@ -243,6 +243,14 @@ body .owl-theme .disabled {
 
 .homeBanner .owl-carousel-banner .banner-item .img-box {
   margin-bottom: 150px;
+  position: relative;
+  width: 136px;
+  height: 218px;
+}
+
+.homeBanner .owl-carousel-banner .banner-item .img-box img {
+  width: 100%;
+  height: 100%;
 }
 
 .homeBanner .owl-carousel-banner .banner-item .bannerBox {

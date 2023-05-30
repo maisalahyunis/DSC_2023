@@ -124,7 +124,13 @@ body {
       }
       .img-box{
         margin-bottom: 150px;
-        img{}
+        position: relative;
+        width: 136px;
+        height: 218px;
+        img{
+          width: 100%;
+          height: 100%;
+        }
       }
       .bannerBox{
         max-width: 675px;
