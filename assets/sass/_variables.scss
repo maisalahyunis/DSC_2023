@@ -1,0 +1,47 @@
+$font-ar: "DSC-Regular";
+$font-en: "DSC-Regular";
+
+$font-path: "../fonts/";
+$img-path: "../images/";
+
+// colors
+
+
+$p-color: #404040;
+$a-color6e6259: #6e6259;
+$main-color: #286140;
+$main-color-gold: #b58500;
+// $main-color-gold-b58500: #b58500;
+// $main-color-gold-c7993b: #b58500;
+$input6e6e6e: #6e6e6e;
+$bgf8f8f8: #f8f8f8;
+$bgf5f5f5: #f5f5f5;
+// $orange-text:#b58500;
+$grey-text:#707070;
+$dark-blue:#292C2E;
+$orange-two:#C7993B;
+
+$theme-colors: (
+  // "primary": $primary-color,
+  // "warning": $orange-color,
+  // "success": $green-color,
+  // "gray": $gray-color,
+  // "red": $red-color
+);
+
+// font weight
+$w-thin: 100; // (Hairline)
+$w-extra-light: 200; // (Ultra Light)
+$w-light: 300;
+$w-normal: 400; // (Regular)
+$w-medium: 500;
+$w-semi-bold: 600; // (Semi Bold)
+$w-bold: 700;
+$w-extra-bold: 800; // (Ultra Bold)
+$w-black: 900; //(Heavy)
+
+
+
+//more 
+
+$raduis-normal : 8px;
