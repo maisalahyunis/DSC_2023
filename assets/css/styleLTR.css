@@ -204,6 +204,7 @@ body .owl-theme .disabled {
 
 .homeBanner {
   width: 100%;
+  height: 100vh;
   padding-bottom: 0px;
   position: relative;
 }
@@ -1013,6 +1014,406 @@ footer .served p {
 .main-topnav.fixedTop .bgTopNav .topNav .a-logo {
   display: block;
   margin-left: 59px;
+}
+
+.innerBanner .breadcrumb-banner {
+  height: 100vh;
+  position: relative;
+  padding-top: 180px;
+}
+
+.innerBanner .breadcrumb-banner .bg-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.innerBanner .breadcrumb-banner .bg-box::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #072C1A;
+  opacity: .95;
+  mix-blend-mode: multiply;
+  display: none;
+}
+
+.innerBanner .breadcrumb-banner .bg-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.innerBanner .breadcrumb-banner .img-box {
+  margin-bottom: 150px;
+  position: relative;
+  width: 136px;
+  height: 218px;
+}
+
+.innerBanner .breadcrumb-banner .img-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.innerBanner .breadcrumb-banner .breadcrumb {
+  margin: 0;
+  padding: 0;
+}
+
+.innerBanner .breadcrumb-banner .breadcrumb li {
+  margin: 0;
+  padding: 0;
+}
+
+.innerBanner .breadcrumb-banner .breadcrumb li a {
+  display: inline;
+  color: #fff;
+  font-size: 15px;
+  font-family: "DSC-Medium";
+  position: relative;
+  padding-right: 32px;
+}
+
+.innerBanner .breadcrumb-banner .breadcrumb li a::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 6px;
+  top: 4px;
+  background: transparent url(../images/shared/breadcrumb-arrow.svg) no-repeat;
+}
+
+.innerBanner .breadcrumb-banner .breadcrumb li span {
+  display: inline;
+  color: #fff;
+  font-size: 15px;
+  font-family: "DSC-Medium";
+  position: relative;
+}
+
+.innerBanner .breadcrumb-banner h2 {
+  font-size: 2.8125rem;
+  font-family: "DSC-bold";
+  color: #fff;
+  margin-top: 55px;
+}
+
+.about-details {
+  background-color: #ECEBEB;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.about-details .content-box {
+  padding-left: 100px;
+  padding-right: 90px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.about-details .content-box p {
+  color: #404040;
+  font-size: 1.5rem;
+  line-height: 46px;
+  text-align: justify;
+  letter-spacing: .5px;
+  margin-bottom: 0;
+}
+
+.about-details .img-box {
+  position: relative;
+  margin-left: 47px;
+}
+
+.about-details .img-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about-details .img-box::before {
+  content: "";
+  position: absolute;
+  background-image: url(../images/shared/about-det-shape.svg);
+  background-size: contain;
+  width: 31px;
+  height: 59px;
+  right: -3px;
+  top: 51px;
+}
+
+.vision-mission {
+  margin-bottom: 95px;
+}
+
+.vision-mission .card {
+  border: none;
+  padding-bottom: 13px;
+  border-bottom: 2px solid;
+  border-radius: 0;
+}
+
+.vision-mission .card .img-box {
+  width: 100%;
+  height: 299px;
+  position: relative;
+}
+
+.vision-mission .card .img-box > img {
+  width: 100%;
+  height: 100%;
+}
+
+.vision-mission .card .img-box .overlay {
+  position: absolute;
+  width: 148px;
+  height: 100%;
+  left: 40px;
+  top: 0;
+  mix-blend-mode: multiply;
+}
+
+.vision-mission .card .img-box .layer {
+  position: absolute;
+  width: 148px;
+  height: 100%;
+  left: 40px;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  z-index: 2;
+}
+
+.vision-mission .card .img-box .layer .icon-box {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.vision-mission .card .img-box .layer .icon-box::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 40px;
+  left: -1px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.vision-mission .card .img-box .layer h4 {
+  font-size: 2.1875rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: justify;
+}
+
+.vision-mission .card .content-box {
+  background-color: #ECEBEB;
+  padding: 35px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 238px;
+}
+
+.vision-mission .card .content-box p {
+  text-align: justify;
+  font-size: 1.5625rem;
+  color: #404040;
+  line-height: 42px;
+  margin-bottom: 0;
+  letter-spacing: .5px;
+}
+
+.vision-mission .card.vision {
+  border-bottom-color: #286140;
+}
+
+.vision-mission .card.vision .img-box .overlay {
+  background-color: #286140;
+}
+
+.vision-mission .card.vision .img-box .layer .icon-box::before {
+  background-color: #b58500;
+}
+
+.vision-mission .card.mission {
+  border-bottom-color: #b58500;
+}
+
+.vision-mission .card.mission .img-box .overlay {
+  background-color: #b58500;
+}
+
+.vision-mission .card.mission .img-box .layer .icon-box::before {
+  background-color: #286140;
+}
+
+.values {
+  margin-top: 95px;
+  margin-bottom: 75px;
+}
+
+.values .home-header {
+  margin-bottom: 76px;
+}
+
+.values .values-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.values .values-list .value-item {
+  width: 225px;
+  height: 280px;
+  position: relative;
+}
+
+.values .values-list .value-item .img-box {
+  width: 225px;
+  height: 225px;
+}
+
+.values .values-list .value-item .img-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.values .values-list .value-item .content-box {
+  padding: 15px 10px 0;
+  text-align: center;
+}
+
+.values .values-list .value-item .content-box h4 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.25rem;
+  font-family: "DSC-Medium";
+  line-height: 37px;
+}
+
+.values .values-list .value-item .content-box h4.color1 {
+  color: #7A203A;
+}
+
+.values .values-list .value-item .content-box h4.color2 {
+  color: #286140;
+}
+
+.values .values-list .value-item .content-box h4.color3 {
+  color: #70645B;
+}
+
+.values .values-list .value-item .content-box h4.color4 {
+  color: #b58500;
+}
+
+.partners-about {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.partners-about .home-header {
+  margin-bottom: 60px;
+}
+
+.partners-about .home-header::before {
+  width: 92px;
+}
+
+.partners-about .partners-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.partners-about .partners-list .partner-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: 20%;
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+
+.partners-about .partners-list .partner-item .partBox {
+  height: 178px;
+}
+
+.partners-about .partners-list .partner-item .partBox .partImg {
+  height: 127px;
+  margin-bottom: 5px;
+}
+
+.partners-about .partners-list .partner-item .partBox .hedinBt {
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.partners-about .partners-list .partner-item .partBox:hover .hedinBt {
+  height: calc(25px * 2);
 }
 
 @media (min-width: 1300px) {
