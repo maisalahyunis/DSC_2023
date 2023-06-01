@@ -1416,6 +1416,32 @@ footer .served p {
   height: calc(25px * 2);
 }
 
+.cont-grey-card {
+  background-color: #E6E6E5;
+}
+
+.privacy {
+  padding-top: 90px;
+  padding-bottom: 150px;
+}
+
+.privacy .cont-grey-card {
+  padding: 86px 115px 120px;
+}
+
+.privacy .cont-grey-card p {
+  font-size: 1.5rem;
+  line-height: 46px;
+  font-family: "DSC-light";
+  color: #404040;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+.privacy .cont-grey-card p:last-child {
+  margin-bottom: 0;
+}
+
 @media (min-width: 1300px) {
   .container {
     max-width: 1560px;
