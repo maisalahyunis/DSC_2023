@@ -1442,6 +1442,111 @@ footer .served p {
   margin-bottom: 0;
 }
 
+.use-terms {
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+
+.accordion .accordion-item {
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 0;
+}
+
+.accordion .accordion-item .accordion-header .accordion-button {
+  padding: 38px 115px;
+  background-color: #E6E6E5;
+  border-radius: 0;
+  font-size: 1.875rem;
+  font-family: 'DSC-Medium';
+  color: #286140;
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.accordion .accordion-item .accordion-header .accordion-button::after {
+  width: 36px;
+  height: 36px;
+  background-image: url(../images/shared/plus.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 60px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: 350ms;
+  transition: 350ms;
+}
+
+.accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+  -webkit-transform: translateY(-50%) rotate(135deg);
+          transform: translateY(-50%) rotate(135deg);
+}
+
+.accordion .accordion-item .accordion-collapse .accordion-body {
+  background-color: #E6E6E5;
+  padding: 15px 115px;
+  padding-bottom: 75px;
+}
+
+.accordion .accordion-item .accordion-collapse .accordion-body h4 {
+  color: #404040;
+  font-family: "DSC-Medium";
+  font-size: 1.375rem;
+  line-height: 40px;
+  text-align: justify;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.accordion .accordion-item .accordion-collapse .accordion-body p {
+  color: #404040;
+  font-size: 1.375rem;
+  line-height: 40px;
+  letter-spacing: .5px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.accordion .accordion-item .accordion-collapse .accordion-body p:last-child {
+  margin-bottom: 0;
+}
+
+.accordion .accordion-item .accordion-collapse .accordion-body ul {
+  padding-left: 70px;
+  padding-right: 0px;
+}
+
+.accordion .accordion-item .accordion-collapse .accordion-body ul li {
+  color: #404040;
+  font-size: 1.375rem;
+  line-height: 40px;
+  letter-spacing: .5px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.accordion .accordion-item .accordion-collapse .accordion-body ul.numbers {
+  list-style: decimal;
+}
+
+.accordion .accordion-item .accordion-collapse .accordion-body ul.no-numbers {
+  position: relative;
+}
+
+.accordion .accordion-item .accordion-collapse .accordion-body ul.no-numbers li {
+  position: relative;
+}
+
+.accordion .accordion-item .accordion-collapse .accordion-body ul.no-numbers li::before {
+  content: "-";
+  position: absolute;
+  right: -20px;
+  top: 0;
+}
+
 @media (min-width: 1300px) {
   .container {
     max-width: 1560px;

@@ -1163,3 +1163,105 @@ footer {
     }
   }
 }
+
+// terms of use
+
+.use-terms{
+  padding-top: 90px;
+  padding-bottom: 100px;
+
+}
+.accordion{
+  .accordion-item{
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 0;
+    .accordion-header{
+      .accordion-button{
+        padding: 38px 115px;
+        // padding-#{$start-direction}: 115px;
+        background-color: #E6E6E5;
+        border-radius: 0;
+        font-size: 1.875rem;
+        font-family: 'DSC-Medium';
+        color: $main-color;
+        border: 0;
+        box-shadow: none;
+        &::after{
+          width: 36px;
+          height: 36px;
+          background-image: url(../images/shared/plus.svg);
+          background-size: contain;
+          background-repeat: no-repeat;
+          // margin-#{$start-direction}: auto;
+          // margin-#{$end-direction}: 0;
+          position: absolute;
+          left: 60px;
+          top: 50%;
+          transform: translateY(-50%);
+          transition: 350ms;
+        }
+        &:not(.collapsed)::after{
+          transform: translateY(-50%) rotate(135deg);
+        }
+      }
+    }
+    .accordion-collapse{
+      .accordion-body{
+        background-color: #E6E6E5;
+        padding: 15px 115px;
+        padding-bottom: 75px;
+        h4{
+          color: $p-color;
+          font-family: "DSC-Medium";
+          font-size: 1.375rem;
+          line-height: 40px;
+          text-align: justify;
+          margin-bottom: 15px;
+          font-weight: 500;
+        }
+        p{
+          color: $p-color;
+          font-size: 1.375rem;
+          line-height: 40px;
+          letter-spacing: .5px;
+          text-align: justify;
+          margin-bottom: 10px;
+          &:last-child{
+            margin-bottom: 0;
+          }
+        }
+        ul{
+          padding-#{$start-direction}: 70px;
+          padding-#{$end-direction}: 0px;
+          li{
+            color: $p-color;
+            font-size: 1.375rem;
+            line-height: 40px;
+            letter-spacing: .5px;
+            text-align: justify;
+            margin-bottom: 10px;
+
+          }
+          &.numbers{
+            list-style: decimal
+          }
+          &.no-numbers{
+            position: relative;
+            li{
+              position: relative;
+              &::before{
+                content: "-";
+                position: absolute;
+                right: -20px;
+                top: 0;
+              }
+            } 
+
+          }
+        }
+        
+      }
+    }
+  }
+}
