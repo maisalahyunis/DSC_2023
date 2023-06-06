@@ -97,19 +97,19 @@ $( document ).ready(function() {
       dots:true,
       rtl: true,
       navText: arrow,
-      // center:true,
       startPosition:2,
-      // stagePadding:183,
       stagePadding:170,
       responsive:{
           0:{
-              items:2
+              items:1,
+              stagePadding:0,
           },
           // 600:{
           //     items:3
           // },
           1000:{
-              items:3
+              items:1,
+              stagePadding:0,
           },
           1400:{
               items:1

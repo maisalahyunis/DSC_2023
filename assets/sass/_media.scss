@@ -1,4 +1,4 @@
-@media (min-width: 1300px) {
+@media (min-width: 1650px) {
   .container {
     max-width: 1560px;
   }
@@ -39,29 +39,536 @@
 
 
 @media (max-width: 1650.98px) {
-
+  .fields .fields-item .field-box .content-box {
+    padding-top: 50px;
+    padding-bottom: 45px;
+  }
+  .fields .fields-item .field-box .content-box h3 {
+    font-size: 1.375rem;
+    line-height: 35px;
+  }
+  .fields .fields-item .field-box .content-box p {
+    font-size: 1.375rem;
+    line-height: 35px;
+  }
 }
 
 
-@media (max-width: 1440px) {
+@media (max-width: 1440.98px) {
+  .homeBanner .owl-carousel-banner .banner-item .img-box{
+    margin-bottom: 100px;
+  }
+  .homeBanner .owl-carousel-banner .banner-item .bannerBox p {
+    font-size: 1.5rem;
+    line-height: 40px;
+  }
+  .aboutCenter .aboutTxt .title{
+    font-size: 2rem;
+  }
+  .aboutCenter .aboutTxt .title::before{
+    top: 5px;
+    height: 29px;
+  }
+  .aboutCenter .aboutTxt p{
+    font-size: 1.25rem;
+    line-height: 35px;
+  }
+  .aboutCenter .aboutTxt .mainBtn {
+    font-size: 1.375rem;
+  }
+  .tatwer-elkharegeen .more-btn {
+    width: 190px;
+  }
+  .tatwer-elkharegeen .tatwer-main .content-box p{
+    font-size: 1.5rem;
+  }
 
 }
 
 
 @media (max-width: 1199.98px) {
+  .aboutCenter .aboutTxt .mainBtn {
+    font-size: 1.125rem;
+  }
+  .fields .owl-theme .owl-prev {
+    #{$start-direction}: 20px;
+  }
+  .fields .owl-theme .owl-next {
+    #{$end-direction}: 20px;
+  }
+  .fields .fields-item .field-box .img-box{
+    margin-#{$start-direction}: 0;
+  }
+
+  .tatwer-elkharegeen .tatwer-main .content-box .img-box {
+    margin-bottom: 75px
+  }
+  .tatwer-elkharegeen .tatwer-main .content-box {
+    width: 500px;
+  }
+  body .owl-theme .owl-prev{
+    #{$start-direction}: 0px;
+  }
+  body .owl-theme .owl-next{
+    #{$end-direction}: 0px;
+  }
+  .tatwer-elkharegeen .more-btn {
+    width: 140px;
+    height: 50px;
+    font-size: 1.125rem;
+  }
+  .partners-about .partners-list{
+    justify-content: flex-start;
+  }
+  .partners-about .partners-list .partner-item{
+    width: 25%;
+  }
+  .partners-about .partners-list .partner-item .partBox .partImg{
+    height: 92px;
+  }
+
+  .accordion .accordion-item .accordion-header .accordion-button {
+    padding: 35px 65px;
+    padding-#{$end-direction}: 100px;
+    font-size: 1.5rem;
+  }
+  .accordion .accordion-item .accordion-collapse .accordion-body{
+    padding: 15px 65px;
+  }
+  .accordion .accordion-item .accordion-collapse .accordion-body p , 
+  .accordion .accordion-item .accordion-collapse .accordion-body ul li , 
+  .accordion .accordion-item .accordion-collapse .accordion-body h4{
+    font-size: 1.25rem;
+    line-height: 35px;
+  }
 }
+
 
 
 @media (max-width: 991.98px) {
- 
+  .aboutCenter .patternImg::before{
+    right: 50px;
+    top: -11px;
+    transform: rotate(-90deg);
+    background-repeat: no-repeat;
+  }
+  .fields .fields-item .field-box .content-box{
+    height: 285px;
+  }
+  .fields .fields-item .field-box .img-box::before{
+    right: 50px;
+    top: -15px;
+    transform: rotate(-90deg);
+    background-repeat: no-repeat;
+  }
+  .tatwer-elkharegeen .tatwer-main{
+    flex-direction: column;
+  }
+  .tatwer-elkharegeen .tatwer-main .content-box {
+    width: auto;
+    margin-bottom: 20px;
+  }
+
+  footer .img-box {
+    max-width: 250px;
+  }
+  .partners-about .partners-list .partner-item {
+    width: 33%;
+  }
+  .privacy .cont-grey-card {
+    padding: 50px ;
+  }
+  .privacy .cont-grey-card p {
+    font-size: 1.25rem;
+    line-height: 35px;
+    margin-bottom: 25px;
+  }
+  .accordion .accordion-item .accordion-header .accordion-button::after{
+    width: 25px;
+    height: 25px;
+    #{$end-direction}:45px
+  }
+  .accordion .accordion-item .accordion-header .accordion-button{
+    padding-#{$end-direction}: 70px;
+  }
+
 }
 
 @media (max-width: 767.98px) {
- 
+  .homeBanner .owl-carousel-banner .banner-item .img-box{
+    margin-bottom: 60px;
+    height: 150px;
+  }
+  .homeBanner .owl-carousel-banner .banner-item .bannerBox p::before{
+    width: 30px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    #{$start-direction}:0;
+  }
+  .homeBanner .owl-carousel-banner .banner-item .bannerBox p::after{
+    width: 30px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .homeBanner .owl-carousel-banner .banner-item .bannerBox p{
+    font-size: 1.25rem;
+    line-height: 33px;
+    padding-top: 24px;
+    letter-spacing: 0;
+  }
+  .homeBanner .scroll-down{
+    #{$end-direction}:20px
+  }
+  .homeBanner .owl-carousel-banner .owl-dots{
+    bottom: 75px;
+  }
+  .main-topnav .bgTopNav .topNav{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-#{$start-direction}: 25px;
+    padding-#{$end-direction}: 25px;
+  }
+  .main-topnav .bgTopNav .topNav .changeLang{
+    font-size: 16px;
+    margin-right: 15px;
+  }
+  .main-topnav .bgTopNav .topNav .joinBtn{
+    font-size: 14px;
+  }
+  .main-topnav.fixedTop .bgTopNav .topNav .a-logo{
+    margin-#{$start-direction}: 15px;
+    max-width: 125px;
+  }
+  .main-topnav .bannerBg{
+    width: 100%;
+    transform: translateX(100%);
+  }
+  .main-topnav .bannerBg .customMenu{
+    padding-top: 150px;
+    padding-#{$start-direction}: 35px;
+    padding-#{$end-direction}: 35px;
+  }
+  .main-topnav .bannerBg .customMenu .navigations{
+    padding-#{$start-direction}: 20px;
+  }
+  .main-topnav.fixedTop .bgTopNav .topNav .slide-nav:hover .menu-label{
+    display: none;
+  }
 
+  .aboutCenter{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .aboutCenter .aboutTxt{
+    padding: 30px;
+  }
+  .aboutCenter .aboutTxt .title {
+    font-size: 1.25rem;
+  }
+  .aboutCenter .aboutTxt .title::before {
+    top: 2px;
+    height: 20px;
+  }
+  .aboutCenter .aboutTxt p{
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: 0;
+  }
+  .aboutCenter .aboutTxt .mainBtn {
+    font-size: 1rem;
+    margin-top: 15px;
+  }
+  .aboutCenter .aboutTxt .mainBtn img{
+    max-height: 13px;
+  }
+  .tatwer-elkharegeen{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .tatwer-elkharegeen .tatwer-main{
+    padding-top: 65px;
+    padding-#{$start-direction}: 30px;
+    padding-#{$end-direction}: 30px;
+    padding-bottom: 60px;
+  }
+  .tatwer-elkharegeen .tatwer-main .content-box .img-box{
+    margin-bottom: 55px;
+    max-width: 200px;
+  }
+  .tatwer-elkharegeen .tatwer-main .content-box p{
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: 0;
+    margin-bottom: 0;
+  }
+  .tatwer-elkharegeen .more-btn {
+    width: 110px;
+    height: 40px;
+    font-size: 1rem;
+  }
+  .home-header {
+    font-size: 1.25rem;
+  }
+  .partners{
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .partners .partBox .partImg{
+    height: 90px;
+  }
+  .partners .partBox:hover .hedinBt{
+    height: 40px;
+  }
+  .partners .partBox .hedinBt{
+    font-size: 0.875rem;
+    line-height: 20px;
+  }
+  .partners .owl-theme .owl-nav [class*="owl-"]{
+    position: relative;
+    top: 15px;
+  }
+  .partners .partBox{
+    height: 165px;
+  }
+  .fields{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .fields .owl-theme .owl-nav {
+    margin-top: 25px;
+  }
+  .fields .owl-theme .owl-nav [class*="owl-"]{
+    position: relative;
+    top: 15px;
+  }
+  .fields .owl-theme .owl-next {
+    #{$end-direction}: 0;
+  }
+  .fields .owl-theme .owl-prev {
+    #{$start-direction}: 0;
+  }
+  .fields .owl-theme .owl-dots{
+    margin-top: 10px;
+  }
+  .fields .fields-item .field-box .content-box p {
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: 0;
+  }
+  .fields .fields-item .field-box .content-box h3 {
+    font-size: 1.25rem;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+  .fields .fields-item .field-box .content-box {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-#{$start-direction}: 35px;
+    padding-#{$end-direction}: 35px;
+    // height: 240px;
+  }
+  .fields .fields-item .field-box .img-box .img-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .fields .fields-item .field-box .img-box .img-icon{
+    width: 90px;
+    height: 70px;
+  }
+  .fields .fields-item .field-box .img-box::before{
+    width: 20px;
+    height: 45px;
+    background-size: contain;
+  }
+  footer {
+    padding: 45px 25px 40px;
+    flex-direction: column;
+  }
+  footer .img-box {
+    margin-bottom: 25px;
+  }
+
+  .innerBanner .breadcrumb-banner .img-box{
+    margin-bottom: 60px;
+    height: 150px;
+  }
+  .innerBanner .breadcrumb-banner h2{
+    font-size: 2rem;
+  }
+  .about-details .content-box p {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  .about-details .content-box {
+    padding-#{$start-direction}: 45px;
+    padding-#{$end-direction}: 45px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .about-details .img-box{
+    margin: 0;
+  }
+  .about-details .img-box::before{
+    width: 30px;
+    height: 40px;
+    #{$start-direction}: 40px;
+    top: -16px;
+    transform: rotate(-90deg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .vision-mission .card .content-box{
+    height: auto;
+    padding: 25px 30px;
+  }
+  .vision-mission .card .img-box .layer h4{
+    font-size: 1.75rem;
+  }
+  .vision-mission .card .content-box p{
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: 0;
+  }
+  .values {
+    margin-top: 45px;
+    margin-bottom: 20px;
+  }
+  .partners-about .home-header {
+    margin-bottom: 30px;
+  }
+  .partners-about .partners-list .partner-item {
+    width: 50%;
+  }
+  .partners-about .partners-list .partner-item .partBox .partImg{
+    height: 105px;
+  }
+  .partners-about .partners-list .partner-item .partBox .hedinBt {
+    font-size: .75rem;
+    line-height: 17px;
+}
+  .partners-about .partners-list .partner-item .partBox:hover .hedinBt {
+    height: calc(18px * 2);
+  }
+  
+  .values .values-list .value-item {
+    width: 150px;
+    height: 210px;
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 20px;
+  }
+  .values .values-list .value-item .img-box {
+    width: 150px;
+    height: 150px;
+  }
+  .values .values-list .value-item .content-box h4{
+    font-size: 1rem;
+  }
+  .values .home-header {
+    margin-bottom: 35px;
+  }
+  .vision-mission {
+    margin-bottom: 50px;
+  }
+  .about-details {
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  .privacy .cont-grey-card {
+    padding: 40px 25px;
+  }
+  .privacy .cont-grey-card p {
+    font-size: 1rem;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+  .privacy {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .use-terms {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  .accordion .accordion-item{
+    margin-bottom: 15px;
+  }
+  .accordion .accordion-item .accordion-header .accordion-button{
+    padding: 20px;
+    padding-#{$end-direction}:35px ;
+    font-size: 1rem;
+  }
+  .accordion .accordion-item .accordion-header .accordion-button::after{
+    #{$end-direction}:14px;
+    width: 20px;
+    height: 20px;
+  }
+  .accordion .accordion-item .accordion-collapse .accordion-body {
+    padding: 15px 30px;
+  }
+  .accordion .accordion-item .accordion-collapse .accordion-body p, 
+  .accordion .accordion-item .accordion-collapse .accordion-body ul li, 
+  .accordion .accordion-item .accordion-collapse .accordion-body h4 {
+    font-size: 0.875rem;
+    line-height: 25px;
+    letter-spacing: 0;
+  }
+  .accordion .accordion-item .accordion-collapse .accordion-body ul{
+    padding-#{$start-direction}: 25px;
+  }
 }
 
 
 @media (max-width: 574.98px) {
- 
+  .values .values-list .value-item{
+    width: 130px;
+    height: 185px;
+  }
+  .values .values-list .value-item .img-box {
+    width: 130px;
+    height: 130px;
+  }
+  .vision-mission .card .img-box .overlay{
+    width: 110px;
+  }
+  .vision-mission .card .img-box .layer{
+    width: 110px;
+  }
+  .vision-mission .card .img-box .layer .icon-box img{
+    max-width: 55px;
+  }
+  .vision-mission .card .img-box .layer h4 {
+    font-size: 1.25rem;
+  }
+  .vision-mission .card .img-box{
+    height: 225px;
+  }
+  .partners-about .partners-list .partner-item .partBox .partImg {
+    height: 130px;
+  }
+  .partners-about .partners-list .partner-item {
+    width: 100%;
+  }
+
+
+  .innerBanner .breadcrumb-banner h2 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+  }
+  .innerBanner .breadcrumb-banner {
+    height: 70vh;
+    padding-top: 125px;
+  }
+  .innerBanner{
+    height: 70vh;
+  }
+  .innerBanner .breadcrumb-banner .breadcrumb li a{
+    font-size: 14px;
+  }
 }
