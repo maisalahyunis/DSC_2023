@@ -281,6 +281,8 @@ body .owl-theme .disabled {
   width: 38px;
   height: 25px;
   background-image: url(../images/home/quote-top.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .homeBanner .owl-carousel-banner .banner-item .bannerBox p::after {
@@ -291,6 +293,8 @@ body .owl-theme .disabled {
   width: 38px;
   height: 25px;
   background-image: url(../images/home/quote-top.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
@@ -565,6 +569,8 @@ body .owl-theme .disabled {
   content: "";
   position: absolute;
   background-image: url(../images/home/field-poly.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 31px;
   height: 60px;
   top: 52px;
@@ -576,13 +582,13 @@ body .owl-theme .disabled {
 }
 
 .fields .owl-theme .owl-next {
-  left: 73px;
-  right: auto;
+  right: 73px;
+  left: auto;
 }
 
 .fields .owl-theme .owl-prev {
-  right: 73px;
-  left: auto;
+  left: 73px;
+  right: auto;
 }
 
 .tatwer-elkharegeen {
@@ -678,6 +684,7 @@ body .owl-theme .disabled {
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
   overflow: hidden;
+  margin-bottom: 0;
 }
 
 .partners .partBox img {
@@ -1090,7 +1097,7 @@ footer .served p {
   position: absolute;
   width: 20px;
   height: 20px;
-  left: 6px;
+  right: 6px;
   top: 4px;
   background: transparent url(../images/shared/breadcrumb-arrow.svg) no-repeat;
 }
@@ -1161,7 +1168,7 @@ footer .served p {
   background-size: contain;
   width: 31px;
   height: 59px;
-  right: -3px;
+  left: -3px;
   top: 51px;
 }
 
@@ -1478,7 +1485,7 @@ footer .served p {
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
-  left: 60px;
+  right: 60px;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -1549,8 +1556,191 @@ footer .served p {
 .accordion .accordion-item .accordion-collapse .accordion-body ul.no-numbers li::before {
   content: "-";
   position: absolute;
-  right: -20px;
+  left: -20px;
   top: 0;
+}
+
+html[lang="en"] .main-topnav .bannerBg {
+  -webkit-transform: translateX(-490px);
+          transform: translateX(-490px);
+}
+
+html[lang="en"] .main-topnav .bannerBg.slide-me {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+html[lang="en"] .main-topnav .bgTopNav .topNav .slide-nav:hover span.second {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+html[lang="en"] .main-topnav .bgTopNav .topNav .slide-nav:hover span.third {
+  -webkit-transform: translateX(9px);
+          transform: translateX(9px);
+}
+
+html[lang="en"] .main-topnav .bgTopNav .topNav .slide-nav .menu-label {
+  -webkit-transform: translate(40px, -20px);
+          transform: translate(40px, -20px);
+}
+
+html[lang="en"] .homeBanner .owl-carousel-banner .banner-item .bannerBox p::before {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+html[lang="en"] .aboutCenter .aboutTxt .mainBtn img {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+html[lang="en"] .aboutCenter .aboutTxt .mainBtn:hover img {
+  -webkit-transform: scaleX(-1) translateX(-5px);
+          transform: scaleX(-1) translateX(-5px);
+}
+
+html[lang="en"] p {
+  letter-spacing: 0 !important;
+}
+
+html[lang="en"] .homeBanner .owl-carousel-banner .banner-item .bannerBox {
+  max-width: 775px;
+}
+
+html[lang="en"] .homeBanner .owl-carousel-banner .banner-item .bannerBox p {
+  font-size: 1.6875rem;
+  line-height: 48px;
+  padding-right: 20px;
+}
+
+html[lang="en"] .homeBanner .owl-carousel-banner .banner-item .bannerBox p::after {
+  bottom: -7px;
+  right: -10px;
+  -webkit-transform: rotate(180deg) scaleX(-1);
+          transform: rotate(180deg) scaleX(-1);
+}
+
+html[lang="en"] .homeBanner .owl-carousel-banner .banner-item .bannerBox span {
+  font-size: 1rem;
+}
+
+html[lang="en"] .aboutCenter .aboutTxt .title {
+  font-size: 2.25rem;
+}
+
+html[lang="en"] .aboutCenter .aboutTxt .title::before {
+  top: 3px;
+}
+
+html[lang="en"] .aboutCenter .aboutTxt p {
+  font-size: 1.25rem;
+  line-height: 33px;
+}
+
+html[lang="en"] .aboutCenter .aboutTxt .mainBtn {
+  font-size: 1.375rem;
+}
+
+html[lang="en"] .fields .fields-item .field-box .content-box p {
+  font-size: 1.5rem;
+}
+
+html[lang="en"] .tatwer-elkharegeen .tatwer-main {
+  background-image: url(../images/home/tatwer-home-img-en.svg);
+}
+
+html[lang="en"] .tatwer-elkharegeen .tatwer-main .content-box {
+  width: 670px;
+}
+
+html[lang="en"] .tatwer-elkharegeen .tatwer-main .content-box p {
+  font-size: 1.625rem;
+}
+
+html[lang="en"] .partners .partBox .hedinBt {
+  font-size: 0.875rem;
+  line-height: 22px;
+  padding: 0 55px;
+}
+
+html[lang="en"] .partners .partBox:hover .hedinBt {
+  height: 48px;
+}
+
+html[lang="en"] .homeBanner .scroll-down a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html[lang="en"] .homeBanner .scroll-down a img {
+  margin: 0;
+}
+
+html[lang="en"] .homeBanner .scroll-down a span {
+  margin-left: 7px;
+  margin-top: 8px;
+}
+
+html[lang="en"] .main-topnav .bannerBg .customMenu .navigations {
+  padding-left: 13px;
+  padding-right: 12px;
+}
+
+html[lang="en"] .main-topnav .bannerBg .customMenu .navigations li a {
+  font-size: 1.375rem;
+}
+
+html[lang="en"] .innerBanner .breadcrumb-banner .breadcrumb li a::before {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+html[lang="en"] .about-details .img-box::before {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+html[lang="en"] .about-details .content-box {
+  padding-left: 90px;
+  padding-right: 40px;
+}
+
+html[lang="en"] .vision-mission .card.mission .img-box .overlay,
+html[lang="en"] .vision-mission .card.mission .img-box .layer {
+  width: 186px;
+}
+
+html[lang="en"] .vision-mission .card.vision .img-box .overlay,
+html[lang="en"] .vision-mission .card.vision .img-box .layer {
+  width: 162px;
+}
+
+html[lang="en"] .vision-mission .card .content-box {
+  height: 280px;
+}
+
+html[lang="en"] .vision-mission .card .content-box p {
+  font-size: 1.5rem;
+}
+
+html[lang="en"] .partners-about .partners-list .partner-item {
+  margin-bottom: 20px;
+}
+
+html[lang="en"] .partners .partBox .hedinBt {
+  padding: 0 25px;
 }
 
 @media (min-width: 1650px) {
@@ -1674,11 +1864,14 @@ footer .served p {
     font-size: 1.25rem;
     line-height: 35px;
   }
+  .partners .partBox .partImg {
+    height: 130px;
+  }
 }
 
 @media (max-width: 991.98px) {
   .aboutCenter .patternImg::before {
-    right: 50px;
+    left: 50px;
     top: -11px;
     -webkit-transform: rotate(-90deg);
             transform: rotate(-90deg);
@@ -1688,7 +1881,7 @@ footer .served p {
     height: 285px;
   }
   .fields .fields-item .field-box .img-box::before {
-    right: 50px;
+    left: 50px;
     top: -15px;
     -webkit-transform: rotate(-90deg);
             transform: rotate(-90deg);
@@ -1725,6 +1918,36 @@ footer .served p {
   }
   .accordion .accordion-item .accordion-header .accordion-button {
     padding-right: 70px;
+  }
+  .about-details .img-box {
+    margin-left: 0;
+  }
+  .values .values-list .value-item {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+  }
+  .about-details .img-box::before {
+    width: 30px;
+    height: 40px;
+    left: 40px;
+    top: -16px;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 
@@ -1766,7 +1989,7 @@ footer .served p {
   }
   .main-topnav .bgTopNav .topNav .changeLang {
     font-size: 16px;
-    margin-right: 15px;
+    margin-left: 15px;
   }
   .main-topnav .bgTopNav .topNav .joinBtn {
     font-size: 14px;
@@ -1947,16 +2170,6 @@ footer .served p {
   .about-details .img-box {
     margin: 0;
   }
-  .about-details .img-box::before {
-    width: 30px;
-    height: 40px;
-    left: 40px;
-    top: -16px;
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
   .vision-mission .card .content-box {
     height: auto;
     padding: 25px 30px;
@@ -2114,6 +2327,246 @@ footer .served p {
   }
   .innerBanner .breadcrumb-banner .breadcrumb li a {
     font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  html[lang="en"] .aboutCenter .patternImg::before {
+    -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+  }
+  html[lang="en"] .fields .fields-item .field-box .img-box::before {
+    -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+    left: -2px;
+  }
+}
+
+@media (max-width: 1650px) {
+  html[lang="en"] .about-details .content-box {
+    padding-left: 65px;
+    padding-right: 20px;
+  }
+  html[lang="en"] .about-details .content-box p {
+    font-size: 1.25rem;
+    line-height: 35px;
+  }
+  html[lang="en"] .vision-mission .card .img-box .layer h4 {
+    font-size: 1.75rem;
+  }
+  html[lang="en"] .vision-mission .card .content-box p {
+    font-size: 1.25rem;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 1440.98px) {
+  html[lang="en"] .homeBanner .owl-carousel-banner .banner-item .bannerBox p {
+    font-size: 1.5rem;
+    line-height: 40px;
+  }
+  html[lang="en"] .aboutCenter .aboutTxt .title {
+    font-size: 2rem;
+  }
+  html[lang="en"] .aboutCenter .aboutTxt .title::before {
+    height: 25px;
+  }
+  html[lang="en"] .aboutCenter .aboutTxt .mainBtn {
+    font-size: 1.125rem;
+  }
+  html[lang="en"] .fields .fields-item .field-box .content-box h3 {
+    line-height: 30px;
+  }
+  html[lang="en"] .fields .fields-item .field-box .content-box p {
+    font-size: 1.125rem;
+    line-height: 28px;
+  }
+  html[lang="en"] .tatwer-elkharegeen .tatwer-main .content-box {
+    width: 550px;
+  }
+  html[lang="en"] .tatwer-elkharegeen .tatwer-main .content-box p {
+    font-size: 1.25rem;
+    line-height: 35px;
+  }
+  html[lang="en"] .partners-about .partners-list .partner-item .partBox {
+    height: 155px;
+  }
+  html[lang="en"] .partners-about .partners-list .partner-item .partBox .partImg {
+    height: 100px;
+  }
+  html[lang="en"] .partners-about .partners-list .partner-item .partBox .hedinBt {
+    line-height: 20px;
+    padding: 0 15px;
+    font-size: 0.75rem;
+  }
+  html[lang="en"] .partners-about .partners-list .partner-item .partBox:hover .hedinBt {
+    height: calc(22px * 2);
+  }
+}
+
+@media (max-width: 1199.98px) {
+  html[lang="en"] .fields .fields-item .field-box .content-box h3 {
+    font-size: 1.125rem;
+    line-height: 25px;
+  }
+  html[lang="en"] .fields .fields-item .field-box .content-box p {
+    font-size: 1rem;
+    line-height: 24px;
+  }
+  html[lang="en"] .homeBanner .owl-carousel-banner .banner-item .bannerBox {
+    max-width: 650px;
+  }
+  html[lang="en"] .homeBanner .owl-carousel-banner .banner-item .bannerBox p {
+    font-size: 1.25rem;
+    line-height: 35px;
+  }
+  html[lang="en"] .aboutCenter .aboutTxt .title {
+    font-size: 1.625rem;
+  }
+  html[lang="en"] .aboutCenter .aboutTxt .title::before {
+    height: 22px;
+    top: 1px;
+  }
+  html[lang="en"] .aboutCenter .aboutTxt p {
+    font-size: 1rem;
+    line-height: 26px;
+  }
+  html[lang="en"] .aboutCenter .aboutTxt .mainBtn {
+    font-size: 1rem;
+  }
+  html[lang="en"] .aboutCenter .aboutTxt .mainBtn img {
+    max-height: 13px;
+  }
+  html[lang="en"] .tatwer-elkharegeen .tatwer-main .content-box {
+    width: 480px;
+  }
+  html[lang="en"] .tatwer-elkharegeen .tatwer-main .content-box p {
+    font-size: 1rem;
+    line-height: 28px;
+  }
+  html[lang="en"] .tatwer-elkharegeen .more-btn {
+    font-size: 1rem;
+    padding-top: 18px;
+  }
+  html[lang="en"] .innerBanner .breadcrumb-banner h2 {
+    font-size: 1.75rem;
+  }
+  html[lang="en"] .about-details .content-box p {
+    font-size: 1.125rem;
+    line-height: 30px;
+  }
+  html[lang="en"] .about-details .img-box {
+    height: 100%;
+  }
+  html[lang="en"] .vision-mission .card .content-box p {
+    font-size: 1.125rem;
+    line-height: 30px;
+  }
+  html[lang="en"] .vision-mission .card .img-box .layer h4 {
+    font-size: 1.5rem;
+  }
+  html[lang="en"] .vision-mission .card.mission .img-box .overlay,
+  html[lang="en"] .vision-mission .card.mission .img-box .layer,
+  html[lang="en"] .vision-mission .card.vision .img-box .overlay,
+  html[lang="en"] .vision-mission .card.vision .img-box .layer {
+    width: 150px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  html[lang="en"] .tatwer-elkharegeen .tatwer-main .content-box {
+    width: auto;
+  }
+  html[lang="en"] .vision-mission .card .content-box {
+    height: auto;
+    padding: 45px 40px;
+  }
+  html[lang="en"] .about-details .img-box::before {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+}
+
+@media (max-width: 767.98px) {
+  html[lang="en"] .home-header {
+    font-size: 1.125rem;
+  }
+  html[lang="en"] .main-topnav .bannerBg {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  html[lang="en"] .partners .partBox .hedinBt {
+    font-size: 0.75rem;
+    line-height: 18px;
+    padding: 0 7px;
+  }
+  html[lang="en"] .partners .partBox:hover .hedinBt {
+    height: 60px;
+  }
+  html[lang="en"] .aboutCenter .aboutTxt .title {
+    font-size: 1.25rem;
+  }
+  html[lang="en"] .aboutCenter .aboutTxt .title::before {
+    height: 19px;
+    top: 0;
+  }
+  html[lang="en"] .aboutCenter .aboutTxt p {
+    font-size: .875rem;
+  }
+  html[lang="en"] .aboutCenter .aboutTxt .mainBtn {
+    font-size: .875rem;
+  }
+  html[lang="en"] .homeBanner .owl-carousel-banner .banner-item .bannerBox p {
+    font-size: 1.125rem;
+    line-height: 30px;
+  }
+  html[lang="en"] .fields .fields-item .field-box .content-box p {
+    font-size: .875rem;
+    line-height: 22px;
+  }
+  html[lang="en"] .tatwer-elkharegeen .tatwer-main .content-box p {
+    font-size: .875rem;
+    line-height: 22px;
+  }
+  html[lang="en"] .tatwer-elkharegeen .more-btn {
+    font-size: .875rem;
+  }
+  html[lang="en"] footer .served .linkR a,
+  html[lang="en"] footer .served p {
+    font-size: .875rem;
+  }
+  html[lang="en"] .main-topnav .bannerBg .customMenu .navigations li a {
+    font-size: 1rem;
+  }
+  html[lang="en"] .innerBanner .breadcrumb-banner h2 {
+    font-size: 1.5rem;
+  }
+  html[lang="en"] .about-details .content-box {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  html[lang="en"] .about-details .content-box p {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  html[lang="en"] .vision-mission .card .img-box .layer,
+  html[lang="en"] .vision-mission .card .img-box .overlay {
+    width: 110px !important;
+  }
+  html[lang="en"] .vision-mission .card .img-box .layer h4 {
+    font-size: 1.25rem;
+  }
+  html[lang="en"] .vision-mission .card .content-box {
+    padding: 30px 25px;
+  }
+  html[lang="en"] .vision-mission .card .content-box p {
+    font-size: 1rem;
+    line-height: 27px;
+  }
+  html[lang="en"] .partners-about .partners-list .partner-item .partBox .partImg {
+    height: 130px;
   }
 }
 /*# sourceMappingURL=styleLTR.css.map */
