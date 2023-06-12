@@ -1450,6 +1450,11 @@ footer .served p {
   text-align: justify;
 }
 
+.privacy .cont-grey-card p a {
+  font-size: inherit;
+  color: inherit;
+}
+
 .privacy .cont-grey-card p:last-child {
   margin-bottom: 0;
 }
@@ -1807,6 +1812,17 @@ html[lang="en"] .partners .partBox .hedinBt {
   .tatwer-elkharegeen .tatwer-main .content-box p {
     font-size: 1.5rem;
   }
+  .about-details .content-box p {
+    font-size: 1.25rem;
+    line-height: 35px;
+  }
+  .vision-mission .card .content-box {
+    height: 215px;
+  }
+  .vision-mission .card .content-box p {
+    font-size: 1.25rem;
+    line-height: 35px;
+  }
 }
 
 @media (max-width: 1199.98px) {
@@ -1866,6 +1882,20 @@ html[lang="en"] .partners .partBox .hedinBt {
   }
   .partners .partBox .partImg {
     height: 130px;
+  }
+  .about-details .content-box {
+    padding-left: 45px;
+    padding-right: 20px;
+  }
+  .about-details .img-box {
+    height: 100%;
+  }
+  .vision-mission .card .content-box p {
+    font-size: 1.125rem;
+    line-height: 30px;
+  }
+  .vision-mission .card .content-box {
+    height: auto;
   }
 }
 
@@ -2402,6 +2432,15 @@ html[lang="en"] .partners .partBox .hedinBt {
   html[lang="en"] .partners-about .partners-list .partner-item .partBox:hover .hedinBt {
     height: calc(22px * 2);
   }
+  html[lang="en"] .accordion .accordion-item .accordion-header .accordion-button {
+    font-size: 1.625rem;
+  }
+  html[lang="en"] .accordion .accordion-item .accordion-collapse .accordion-body p,
+  html[lang="en"] .accordion .accordion-item .accordion-collapse .accordion-body ul li,
+  html[lang="en"] .accordion .accordion-item .accordion-collapse .accordion-body h4 {
+    font-size: 1.25rem;
+    line-height: 35px;
+  }
 }
 
 @media (max-width: 1199.98px) {
@@ -2471,6 +2510,16 @@ html[lang="en"] .partners .partBox .hedinBt {
   html[lang="en"] .vision-mission .card.vision .img-box .layer {
     width: 150px;
   }
+  html[lang="en"] .privacy .cont-grey-card p {
+    font-size: 1.125rem;
+    line-height: 30px;
+  }
+  html[lang="en"] .accordion .accordion-item .accordion-collapse .accordion-body p,
+  html[lang="en"] .accordion .accordion-item .accordion-collapse .accordion-body ul li,
+  html[lang="en"] .accordion .accordion-item .accordion-collapse .accordion-body h4 {
+    font-size: 1.125rem;
+    line-height: 30px;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -2484,6 +2533,9 @@ html[lang="en"] .partners .partBox .hedinBt {
   html[lang="en"] .about-details .img-box::before {
     -webkit-transform: rotate(-90deg);
             transform: rotate(-90deg);
+  }
+  html[lang="en"] .accordion .accordion-item .accordion-header .accordion-button {
+    font-size: 1.3125rem;
   }
 }
 
@@ -2567,6 +2619,19 @@ html[lang="en"] .partners .partBox .hedinBt {
   }
   html[lang="en"] .partners-about .partners-list .partner-item .partBox .partImg {
     height: 130px;
+  }
+  html[lang="en"] .privacy .cont-grey-card p {
+    font-size: .875rem;
+    line-height: 25px;
+  }
+  html[lang="en"] .accordion .accordion-item .accordion-collapse .accordion-body p,
+  html[lang="en"] .accordion .accordion-item .accordion-collapse .accordion-body ul li,
+  html[lang="en"] .accordion .accordion-item .accordion-collapse .accordion-body h4 {
+    font-size: .875rem;
+    line-height: 25px;
+  }
+  html[lang="en"] .accordion .accordion-item .accordion-header .accordion-button {
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=styleLTR.css.map */

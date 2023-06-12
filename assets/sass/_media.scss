@@ -83,6 +83,17 @@
     font-size: 1.5rem;
   }
 
+  .about-details .content-box p{
+    font-size: 1.25rem;
+    line-height: 35px;
+  }
+  .vision-mission .card .content-box{
+    height: 215px;
+  }
+  .vision-mission .card .content-box p{
+    font-size: 1.25rem;
+    line-height: 35px;
+  }
 }
 
 
@@ -143,6 +154,20 @@
   }
   .partners .partBox .partImg{
     height: 130px;
+  }
+  .about-details .content-box {
+    padding-#{$start-direction}: 45px;
+    padding-#{$end-direction}: 20px;
+  }
+  .about-details .img-box {
+    height: 100%;
+  }
+  .vision-mission .card .content-box p{
+    font-size: 1.125rem;
+    line-height: 30px;
+  }
+  .vision-mission .card .content-box{
+    height: auto;
   }
 }
 
@@ -666,6 +691,15 @@ html[lang="en"]{
     .partners-about .partners-list .partner-item .partBox:hover .hedinBt{
       height: calc(22px * 2);
     }
+    .accordion .accordion-item .accordion-header .accordion-button{
+      font-size: 1.625rem;
+    }
+    .accordion .accordion-item .accordion-collapse .accordion-body p ,
+    .accordion .accordion-item .accordion-collapse .accordion-body ul li,
+    .accordion .accordion-item .accordion-collapse .accordion-body h4{
+      font-size: 1.25rem;
+      line-height: 35px;
+    }
   }
 
   @media (max-width:1199.98px){
@@ -735,6 +769,16 @@ html[lang="en"]{
     .vision-mission .card.vision .img-box .layer{
       width: 150px;
     }
+    .privacy .cont-grey-card p{
+      font-size: 1.125rem;
+      line-height: 30px;
+    }
+    .accordion .accordion-item .accordion-collapse .accordion-body p ,
+    .accordion .accordion-item .accordion-collapse .accordion-body ul li,
+    .accordion .accordion-item .accordion-collapse .accordion-body h4{
+      font-size: 1.125rem;
+      line-height: 30px;
+    }
   }
 
   @media (max-width: 991.98px) {
@@ -748,6 +792,9 @@ html[lang="en"]{
     }
     .about-details .img-box::before{
       transform: rotate(-90deg);
+    }
+    .accordion .accordion-item .accordion-header .accordion-button{
+      font-size: 1.3125rem;
     }
   }
   
@@ -830,6 +877,19 @@ html[lang="en"]{
     }
     .partners-about .partners-list .partner-item .partBox .partImg{
       height: 130px;
+    }
+    .privacy .cont-grey-card p{
+      font-size: .875rem;
+      line-height: 25px;
+    }
+    .accordion .accordion-item .accordion-collapse .accordion-body p,
+    .accordion .accordion-item .accordion-collapse .accordion-body ul li,
+    .accordion .accordion-item .accordion-collapse .accordion-body h4{
+      font-size: .875rem;
+      line-height: 25px;
+    }
+    .accordion .accordion-item .accordion-header .accordion-button{
+      font-size: 1rem;
     }
   }
 }

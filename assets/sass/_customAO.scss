@@ -1167,6 +1167,10 @@ footer {
       color: $p-color;
       margin-bottom: 40px;
       text-align: justify;
+      a{
+        font-size: inherit;
+        color: inherit;
+      }
       &:last-child{
         margin-bottom: 0;
       }
