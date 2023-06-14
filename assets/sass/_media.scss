@@ -79,7 +79,7 @@
   .batch-card .batch-content .content-sec .types-of .type .icon{
     max-width: 40px;
     max-height: 30px;
-    margin-left: 15px;
+    margin-#{$end-direction}: 15px;
   }
   .batch-card .card-sec .content-box .number{
     font-size: 110px;
@@ -805,6 +805,16 @@ html[lang="en"]{
       line-height: 35px;
     }
 
+    .batch-card .batch-content .content-sec .date,
+    .batch-card .batch-content .content-sec p,
+    .batch-card .batch-content .content-sec h4{
+      font-size: 1.125rem;
+      line-height: 25px;
+    }
+    .batch-card .batch-content .content-sec .types-of .type .desc,
+    .batch-card .batch-content .content-sec .types-of .type .desc p{
+      font-size: .875rem;
+    }
   }
   @media (max-width:1440.98px){
     .homeBanner .owl-carousel-banner .banner-item .bannerBox p{
@@ -937,6 +947,11 @@ html[lang="en"]{
       font-size: 1.125rem;
       line-height: 30px;
     }
+
+    .Graduate-Dev .cont-grey-card p {
+      font-size: 1.125rem;
+      line-height: 30px;
+    }
   }
 
   @media (max-width: 991.98px) {
@@ -953,6 +968,16 @@ html[lang="en"]{
     }
     .accordion .accordion-item .accordion-header .accordion-button{
       font-size: 1.3125rem;
+    }
+    .batch-card .batch-content .content-sec .date,
+    .batch-card .batch-content .content-sec p,
+    .batch-card .batch-content .content-sec h4{
+      font-size: 1rem;
+      line-height: 27px;
+    }
+    .batch-card .batch-content .content-sec .types-of .type .desc,
+    .batch-card .batch-content .content-sec .types-of .type .desc p{
+      font-size: .75rem;
     }
   }
   
@@ -1048,6 +1073,24 @@ html[lang="en"]{
     }
     .accordion .accordion-item .accordion-header .accordion-button{
       font-size: 1rem;
+    }
+    .Graduate-Dev .cont-grey-card p {
+      font-size: .875rem;
+      line-height: 25px;
+    }
+    .batch-card .batch-content .content-sec .date,
+    .batch-card .batch-content .content-sec p,
+    .batch-card .batch-content .content-sec h4{
+      font-size: .875rem;
+      line-height: 23px;
+    }
+    .batch-card .batch-content .content-sec .types-of .type .icon {
+      max-width: 40px;
+      max-height: 30px;
+      margin-right: 15px;
+    }
+    .batch-card h3{
+      font-size: 1.25rem;
     }
   }
 }
