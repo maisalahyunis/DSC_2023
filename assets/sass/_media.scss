@@ -85,17 +85,34 @@
     font-size: 110px;
     line-height: 115px;
   }
+  .homeBanner .owl-carousel-banner .banner-item .img-box{
+    height: 185px;
+    margin-bottom: 10vh;
+  }
+  .homeBanner .owl-carousel-banner .banner-item .bannerBox p{
+    font-size: 1.3125rem;
+    line-height: 39px;
+    padding-top: 27px;
+
+  }
+  .innerBanner .breadcrumb-banner .img-box{
+    height: 185px;
+  }
+  .innerBanner .breadcrumb-banner h2{
+    font-size: 2rem;
+  }
 }
 
 
 @media (max-width: 1440.98px) {
   .homeBanner .owl-carousel-banner .banner-item .img-box{
-    margin-bottom: 100px;
+    // margin-bottom: 100px;
+    margin-bottom: 7vh;
   }
-  .homeBanner .owl-carousel-banner .banner-item .bannerBox p {
-    font-size: 1.5rem;
-    line-height: 40px;
-  }
+  // .homeBanner .owl-carousel-banner .banner-item .bannerBox p {
+  //   font-size: 1.5rem;
+  //   line-height: 40px;
+  // }
   .aboutCenter .aboutTxt .title{
     font-size: 2rem;
   }

@@ -213,6 +213,7 @@ body .owl-theme .disabled {
   height: 100vh;
   position: relative;
   padding-top: 180px;
+  padding-top: 15vh;
 }
 
 .homeBanner .owl-carousel-banner .banner-item .bg-box {
@@ -249,6 +250,7 @@ body .owl-theme .disabled {
   position: relative;
   width: 136px;
   height: 218px;
+  margin-bottom: 10vh;
 }
 
 .homeBanner .owl-carousel-banner .banner-item .img-box img {
@@ -542,6 +544,7 @@ body .owl-theme .disabled {
   position: relative;
   margin-left: 65px;
   height: 100%;
+  max-height: 380px;
 }
 
 .fields .fields-item .field-box .img-box .img-bg {
@@ -565,6 +568,11 @@ body .owl-theme .disabled {
   z-index: 9;
 }
 
+.fields .fields-item .field-box .img-box .img-icon img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .fields .fields-item .field-box .img-box::before {
   content: "";
   position: absolute;
@@ -574,7 +582,7 @@ body .owl-theme .disabled {
   width: 31px;
   height: 60px;
   top: 52px;
-  left: 0;
+  left: -2px;
 }
 
 .fields .owl-theme .owl-nav [class*="owl-"] {
@@ -671,6 +679,7 @@ body .owl-theme .disabled {
   height: 156px;
   max-width: 100%;
   margin-bottom: 3px;
+  overflow: hidden;
 }
 
 .partners .partBox .hedinBt {
@@ -1030,6 +1039,7 @@ footer .served p {
   height: 100vh;
   position: relative;
   padding-top: 180px;
+  padding-top: 15vh;
 }
 
 .innerBanner .breadcrumb-banner .bg-box {
@@ -1066,6 +1076,7 @@ footer .served p {
   position: relative;
   width: 136px;
   height: 218px;
+  margin-bottom: 10vh;
 }
 
 .innerBanner .breadcrumb-banner .img-box img {
@@ -1115,6 +1126,7 @@ footer .served p {
   font-family: "DSC-bold";
   color: #fff;
   margin-top: 55px;
+  margin-top: 5vh;
 }
 
 .about-details {
@@ -1419,6 +1431,7 @@ footer .served p {
 .partners-about .partners-list .partner-item .partBox .partImg {
   height: 127px;
   margin-bottom: 5px;
+  overflow: hidden;
 }
 
 .partners-about .partners-list .partner-item .partBox .hedinBt {
@@ -2195,15 +2208,26 @@ html[lang="en"] .batch-card .batch-content .content-sec .types-of .type .icon {
     font-size: 110px;
     line-height: 115px;
   }
+  .homeBanner .owl-carousel-banner .banner-item .img-box {
+    height: 185px;
+    margin-bottom: 10vh;
+  }
+  .homeBanner .owl-carousel-banner .banner-item .bannerBox p {
+    font-size: 1.3125rem;
+    line-height: 39px;
+    padding-top: 27px;
+  }
+  .innerBanner .breadcrumb-banner .img-box {
+    height: 185px;
+  }
+  .innerBanner .breadcrumb-banner h2 {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 1440.98px) {
   .homeBanner .owl-carousel-banner .banner-item .img-box {
-    margin-bottom: 100px;
-  }
-  .homeBanner .owl-carousel-banner .banner-item .bannerBox p {
-    font-size: 1.5rem;
-    line-height: 40px;
+    margin-bottom: 7vh;
   }
   .aboutCenter .aboutTxt .title {
     font-size: 2rem;
