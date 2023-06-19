@@ -198,10 +198,6 @@ body .owl-theme .owl-prev {
   left: auto;
 }
 
-body .owl-theme .disabled {
-  visibility: hidden !important;
-}
-
 .homeBanner {
   width: 100%;
   height: 100vh;
@@ -213,7 +209,7 @@ body .owl-theme .disabled {
   height: 100vh;
   position: relative;
   padding-top: 180px;
-  padding-top: 15vh;
+  padding-top: 19vh;
 }
 
 .homeBanner .owl-carousel-banner .banner-item .bg-box {
@@ -248,9 +244,12 @@ body .owl-theme .disabled {
 .homeBanner .owl-carousel-banner .banner-item .img-box {
   margin-bottom: 150px;
   position: relative;
-  width: 136px;
-  height: 218px;
-  margin-bottom: 10vh;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 23vh;
+  max-height: 218px;
+  margin-bottom: 15vh;
 }
 
 .homeBanner .owl-carousel-banner .banner-item .img-box img {
@@ -1039,7 +1038,7 @@ footer .served p {
   height: 100vh;
   position: relative;
   padding-top: 180px;
-  padding-top: 15vh;
+  padding-top: 19vh;
 }
 
 .innerBanner .breadcrumb-banner .bg-box {
@@ -1074,9 +1073,12 @@ footer .served p {
 .innerBanner .breadcrumb-banner .img-box {
   margin-bottom: 150px;
   position: relative;
-  width: 136px;
-  height: 218px;
-  margin-bottom: 10vh;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 23vh;
+  max-height: 218px;
+  margin-bottom: 15vh;
 }
 
 .innerBanner .breadcrumb-banner .img-box img {
@@ -2208,17 +2210,10 @@ html[lang="en"] .batch-card .batch-content .content-sec .types-of .type .icon {
     font-size: 110px;
     line-height: 115px;
   }
-  .homeBanner .owl-carousel-banner .banner-item .img-box {
-    height: 185px;
-    margin-bottom: 10vh;
-  }
   .homeBanner .owl-carousel-banner .banner-item .bannerBox p {
     font-size: 1.3125rem;
     line-height: 39px;
     padding-top: 27px;
-  }
-  .innerBanner .breadcrumb-banner .img-box {
-    height: 185px;
   }
   .innerBanner .breadcrumb-banner h2 {
     font-size: 2rem;
@@ -2227,6 +2222,9 @@ html[lang="en"] .batch-card .batch-content .content-sec .types-of .type .icon {
 
 @media (max-width: 1440.98px) {
   .homeBanner .owl-carousel-banner .banner-item .img-box {
+    margin-bottom: 7vh;
+  }
+  .innerBanner .breadcrumb-banner .img-box {
     margin-bottom: 7vh;
   }
   .aboutCenter .aboutTxt .title {
@@ -2509,13 +2507,12 @@ html[lang="en"] .batch-card .batch-content .content-sec .types-of .type .icon {
   .grad-number-cards .number-card {
     margin-bottom: 5px;
   }
+  .accordion .accordion-item .accordion-collapse .accordion-body ul {
+    padding-right: 40px;
+  }
 }
 
 @media (max-width: 767.98px) {
-  .homeBanner .owl-carousel-banner .banner-item .img-box {
-    margin-bottom: 60px;
-    height: 150px;
-  }
   .homeBanner .owl-carousel-banner .banner-item .bannerBox p::before {
     width: 30px;
     height: 20px;
@@ -2556,7 +2553,7 @@ html[lang="en"] .batch-card .batch-content .content-sec .types-of .type .icon {
   }
   .main-topnav.fixedTop .bgTopNav .topNav .a-logo {
     margin-right: 15px;
-    max-width: 125px;
+    max-width: 145px;
   }
   .main-topnav .bannerBg {
     width: 100%;
@@ -2709,10 +2706,6 @@ html[lang="en"] .batch-card .batch-content .content-sec .types-of .type .icon {
   }
   footer .img-box {
     margin-bottom: 25px;
-  }
-  .innerBanner .breadcrumb-banner .img-box {
-    margin-bottom: 60px;
-    height: 150px;
   }
   .innerBanner .breadcrumb-banner h2 {
     font-size: 2rem;
@@ -2924,14 +2917,21 @@ html[lang="en"] .batch-card .batch-content .content-sec .types-of .type .icon {
     margin-top: 30px;
   }
   .innerBanner .breadcrumb-banner {
-    height: 70vh;
+    height: 590px;
     padding-top: 125px;
   }
   .innerBanner {
-    height: 70vh;
+    height: 590px;
   }
   .innerBanner .breadcrumb-banner .breadcrumb li a {
     font-size: 14px;
+  }
+  .homeBanner .scroll-down a span {
+    display: none;
+  }
+  .main-topnav .bgTopNav .topNav .joinBtn {
+    font-size: 12px;
+    padding: 5px 10px 3px;
   }
 }
 
@@ -3249,6 +3249,35 @@ html[lang="en"] .batch-card .batch-content .content-sec .types-of .type .icon {
   }
   html[lang="en"] .batch-card h3 {
     font-size: 1.25rem;
+  }
+}
+
+@media (min-height: 800px) {
+  .innerBanner .breadcrumb-banner {
+    max-height: 770px;
+    padding-top: 110px;
+  }
+  .homeBanner .owl-carousel-banner .banner-item {
+    max-height: 770px;
+    padding-top: 110px;
+  }
+  .homeBanner {
+    max-height: 770px;
+  }
+}
+
+@media (max-height: 750px) {
+  .homeBanner .owl-carousel-banner .banner-item {
+    padding-top: 17vh;
+  }
+  .innerBanner .breadcrumb-banner {
+    padding-top: 17vh;
+  }
+  .homeBanner .owl-carousel-banner .banner-item .img-box {
+    margin-bottom: 10vh;
+  }
+  .innerBanner .breadcrumb-banner .img-box {
+    margin-bottom: 10vh;
   }
 }
 /*# sourceMappingURL=styleRTL.css.map */

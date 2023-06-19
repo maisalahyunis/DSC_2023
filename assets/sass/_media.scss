@@ -85,19 +85,19 @@
     font-size: 110px;
     line-height: 115px;
   }
-  .homeBanner .owl-carousel-banner .banner-item .img-box{
-    height: 185px;
-    margin-bottom: 10vh;
-  }
+  // .homeBanner .owl-carousel-banner .banner-item .img-box{
+  //   height: 185px;
+  //   margin-bottom: 10vh;
+  // }
   .homeBanner .owl-carousel-banner .banner-item .bannerBox p{
     font-size: 1.3125rem;
     line-height: 39px;
     padding-top: 27px;
 
   }
-  .innerBanner .breadcrumb-banner .img-box{
-    height: 185px;
-  }
+  // .innerBanner .breadcrumb-banner .img-box{
+  //   height: 185px;
+  // }
   .innerBanner .breadcrumb-banner h2{
     font-size: 2rem;
   }
@@ -107,6 +107,9 @@
 @media (max-width: 1440.98px) {
   .homeBanner .owl-carousel-banner .banner-item .img-box{
     // margin-bottom: 100px;
+    margin-bottom: 7vh;
+  }
+  .innerBanner .breadcrumb-banner .img-box{
     margin-bottom: 7vh;
   }
   // .homeBanner .owl-carousel-banner .banner-item .bannerBox p {
@@ -372,13 +375,16 @@
   .grad-number-cards .number-card{
     margin-bottom: 5px;
   }
+  .accordion .accordion-item .accordion-collapse .accordion-body ul{
+    padding-#{$start-direction}: 40px;
+  }
 }
 
 @media (max-width: 767.98px) {
-  .homeBanner .owl-carousel-banner .banner-item .img-box{
-    margin-bottom: 60px;
-    height: 150px;
-  }
+  // .homeBanner .owl-carousel-banner .banner-item .img-box{
+  //   margin-bottom: 60px;
+  //   height: 150px;
+  // }
   .homeBanner .owl-carousel-banner .banner-item .bannerBox p::before{
     width: 30px;
     height: 20px;
@@ -419,7 +425,8 @@
   }
   .main-topnav.fixedTop .bgTopNav .topNav .a-logo{
     margin-#{$start-direction}: 15px;
-    max-width: 125px;
+    // max-width: 125px;
+    max-width: 145px;
   }
   .main-topnav .bannerBg{
     width: 100%;
@@ -571,10 +578,10 @@
     margin-bottom: 25px;
   }
 
-  .innerBanner .breadcrumb-banner .img-box{
-    margin-bottom: 60px;
-    height: 150px;
-  }
+  // .innerBanner .breadcrumb-banner .img-box{
+  //   margin-bottom: 60px;
+  //   height: 150px;
+  // }
   .innerBanner .breadcrumb-banner h2{
     font-size: 2rem;
   }
@@ -776,14 +783,23 @@
     margin-top: 30px;
   }
   .innerBanner .breadcrumb-banner {
-    height: 70vh;
+    // height: 70vh;
+    height: 590px;
     padding-top: 125px;
   }
   .innerBanner{
-    height: 70vh;
+    // height: 70vh;
+    height: 590px;
   }
   .innerBanner .breadcrumb-banner .breadcrumb li a{
     font-size: 14px;
+  }
+  .homeBanner .scroll-down a span{
+    display: none;
+  }
+  .main-topnav .bgTopNav .topNav .joinBtn {
+    font-size: 12px;
+    padding: 5px 10px 3px;
   }
 }
 
@@ -1109,5 +1125,35 @@ html[lang="en"]{
     .batch-card h3{
       font-size: 1.25rem;
     }
+  }
+}
+
+
+@media(min-height:800px){
+  .innerBanner .breadcrumb-banner{
+    max-height: 770px;
+    padding-top: 110px;
+  }
+  .homeBanner .owl-carousel-banner .banner-item{
+    max-height: 770px;
+    padding-top: 110px;
+  }
+  .homeBanner {
+    max-height: 770px;
+  }
+}
+
+@media(max-height:750px){
+  .homeBanner .owl-carousel-banner .banner-item{
+    padding-top: 17vh;
+  }
+  .innerBanner .breadcrumb-banner{
+    padding-top: 17vh;
+  }
+  .homeBanner .owl-carousel-banner .banner-item .img-box{
+    margin-bottom: 10vh;
+  }
+  .innerBanner .breadcrumb-banner .img-box{
+    margin-bottom: 10vh;
   }
 }
