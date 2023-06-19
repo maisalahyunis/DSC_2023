@@ -1129,6 +1129,10 @@ html[lang="en"]{
 }
 
 
+
+/*
+    min-height
+*/
 @media(min-height:800px){
   .innerBanner .breadcrumb-banner{
     max-height: 770px;
@@ -1143,6 +1147,11 @@ html[lang="en"]{
   }
 }
 
+
+
+/*
+    max-height
+*/
 @media(max-height:750px){
   .homeBanner .owl-carousel-banner .banner-item{
     padding-top: 17vh;
@@ -1155,5 +1164,19 @@ html[lang="en"]{
   }
   .innerBanner .breadcrumb-banner .img-box{
     margin-bottom: 10vh;
+  }
+}
+
+
+/*
+    min & max height
+
+*/
+@media(min-height:300px) and (max-height:550px){
+  .homeBanner .owl-carousel-banner .banner-item{
+    padding-top: 100px;
+  }
+  .innerBanner .breadcrumb-banner{
+    padding-top: 100px;
   }
 }
