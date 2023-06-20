@@ -249,7 +249,7 @@ body .owl-theme .owl-prev {
   width: max-content;
   height: 23vh;
   max-height: 218px;
-  margin-bottom: 15vh;
+  margin-bottom: 12vh;
 }
 
 .homeBanner .owl-carousel-banner .banner-item .img-box img {
@@ -1078,7 +1078,7 @@ footer .served p {
   width: max-content;
   height: 23vh;
   max-height: 218px;
-  margin-bottom: 15vh;
+  margin-bottom: 12vh;
 }
 
 .innerBanner .breadcrumb-banner .img-box img {
@@ -1164,6 +1164,7 @@ footer .served p {
 }
 
 .about-details .img-box {
+  height: 100%;
   position: relative;
   margin-right: 47px;
 }
@@ -1324,6 +1325,7 @@ footer .served p {
 
 .values .home-header {
   margin-bottom: 76px;
+  color: #404040;
 }
 
 .values .values-list {
@@ -1396,6 +1398,7 @@ footer .served p {
 
 .partners-about .home-header {
   margin-bottom: 60px;
+  color: #404040;
 }
 
 .partners-about .home-header::before {
@@ -2352,9 +2355,6 @@ html[lang="en"] .batch-card .batch-content .content-sec .types-of .type .icon {
     font-size: 1.125rem;
     line-height: 30px;
   }
-  .vision-mission .card .content-box {
-    height: auto;
-  }
   .batch-card .batch-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -2509,6 +2509,9 @@ html[lang="en"] .batch-card .batch-content .content-sec .types-of .type .icon {
   }
   .accordion .accordion-item .accordion-collapse .accordion-body ul {
     padding-right: 40px;
+  }
+  .vision-mission .card .content-box {
+    height: auto;
   }
 }
 
@@ -3255,7 +3258,7 @@ html[lang="en"] .batch-card .batch-content .content-sec .types-of .type .icon {
 /*
     min-height
 */
-@media (min-height: 800px) {
+@media (min-height: 1000px) {
   .innerBanner .breadcrumb-banner {
     max-height: 770px;
     padding-top: 110px;

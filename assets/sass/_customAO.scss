@@ -133,7 +133,7 @@ body {
         // height: 218px;
         height: 23vh;
         max-height: 218px;
-        margin-bottom: 15vh;
+        margin-bottom: 12vh;
         img{
           width: 100%;
           height: 100%;
@@ -863,7 +863,7 @@ footer {
       // height: 218px;
       height: 23vh;
       max-height: 218px;
-      margin-bottom: 15vh;
+      margin-bottom: 12vh;
       img{
         width: 100%;
         height: 100%;
@@ -939,7 +939,7 @@ footer {
   }
   .img-box{
     // width: 100%;
-    // height: 100%;
+    height: 100%;
     position: relative;
     margin-#{$start-direction}: 47px;
     img{
@@ -1079,6 +1079,7 @@ footer {
   margin-bottom: 75px;
   .home-header{
     margin-bottom: 76px;
+    color: $p-color;
   }
   .values-list{
     display: flex;
@@ -1130,6 +1131,7 @@ footer {
   padding-bottom: 20px;
   .home-header{
     margin-bottom: 60px;
+    color: $p-color;
     &::before {
       width: 92px;
     }

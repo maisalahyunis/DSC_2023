@@ -239,9 +239,7 @@
     font-size: 1.125rem;
     line-height: 30px;
   }
-  .vision-mission .card .content-box{
-    height: auto;
-  }
+
   .batch-card .batch-content{
     flex-direction: column-reverse;
   }
@@ -377,6 +375,9 @@
   }
   .accordion .accordion-item .accordion-collapse .accordion-body ul{
     padding-#{$start-direction}: 40px;
+  }
+  .vision-mission .card .content-box{
+    height: auto;
   }
 }
 
@@ -1133,7 +1134,7 @@ html[lang="en"]{
 /*
     min-height
 */
-@media(min-height:800px){
+@media(min-height:1000px){
   .innerBanner .breadcrumb-banner{
     max-height: 770px;
     padding-top: 110px;
