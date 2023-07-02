@@ -167,6 +167,9 @@
     flex: 0 0 30%;
     max-width: 30%;
   }
+  .homeBanner .img-box.logo-img{
+    #{$start-direction}:5vw
+  }
 }
 
 
@@ -378,6 +381,9 @@
   }
   .vision-mission .card .content-box{
     height: auto;
+  }
+  .homeBanner .img-box.logo-img{
+    height: 16vh;
   }
 }
 
@@ -743,6 +749,9 @@
   .batch-card .batch-content .content-sec .types-of .type{
     margin: 0;
     margin-bottom: 10px;
+  }
+  .homeBanner .owl-carousel-banner .banner-item .bannerBox{
+    margin-top: 28vh;
   }
 }
 
@@ -1134,7 +1143,8 @@ html[lang="en"]{
 /*
     min-height
 */
-@media(min-height:1000px){
+
+@media(min-height: 1000px) and (max-width: 950px){
   .innerBanner .breadcrumb-banner{
     max-height: 770px;
     padding-top: 110px;
@@ -1145,6 +1155,12 @@ html[lang="en"]{
   }
   .homeBanner {
     max-height: 770px;
+  }
+  .homeBanner .owl-carousel-banner .banner-item .bannerBox{
+    margin-top: 25vh;
+  }
+  .homeBanner .img-box.logo-img{
+    top: 12vh;
   }
 }
 

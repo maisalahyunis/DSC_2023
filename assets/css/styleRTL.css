@@ -205,6 +205,20 @@ body .owl-theme .owl-prev {
   position: relative;
 }
 
+.homeBanner .img-box.logo-img {
+  position: absolute;
+  height: 23vh;
+  max-height: 218px;
+  z-index: 99;
+  top: 19vh;
+  right: 10vw;
+}
+
+.homeBanner .img-box.logo-img img {
+  width: 100%;
+  height: 100%;
+}
+
 .homeBanner .owl-carousel-banner .banner-item {
   height: 100vh;
   position: relative;
@@ -259,6 +273,7 @@ body .owl-theme .owl-prev {
 
 .homeBanner .owl-carousel-banner .banner-item .bannerBox {
   max-width: 675px;
+  margin-top: 35vh;
 }
 
 .homeBanner .owl-carousel-banner .banner-item .bannerBox p {
@@ -272,6 +287,11 @@ body .owl-theme .owl-prev {
   padding-top: 35px;
   padding-right: 10px;
   letter-spacing: -0.5px;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 0;
 }
 
 .homeBanner .owl-carousel-banner .banner-item .bannerBox p::before {
@@ -304,6 +324,26 @@ body .owl-theme .owl-prev {
   font-size: 1.125rem;
   font-family: "DSC-light";
   color: #b58500;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  -webkit-transition: 1s;
+  transition: 1s;
+  display: block;
+  opacity: 0;
+}
+
+.homeBanner .owl-carousel-banner .active .banner-item .bannerBox p {
+  -webkit-transform: translate(0);
+          transform: translate(0);
+  opacity: 1;
+}
+
+.homeBanner .owl-carousel-banner .active .banner-item .bannerBox span {
+  -webkit-transform: translate(0);
+          transform: translate(0);
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+  opacity: 1;
 }
 
 .homeBanner .owl-carousel-banner .owl-dots .owl-dot span {
@@ -2284,6 +2324,9 @@ html[lang="en"] .batch-card .batch-content .content-sec .types-of .type .icon {
             flex: 0 0 30%;
     max-width: 30%;
   }
+  .homeBanner .img-box.logo-img {
+    right: 5vw;
+  }
 }
 
 @media (max-width: 1199.98px) {
@@ -2512,6 +2555,9 @@ html[lang="en"] .batch-card .batch-content .content-sec .types-of .type .icon {
   }
   .vision-mission .card .content-box {
     height: auto;
+  }
+  .homeBanner .img-box.logo-img {
+    height: 16vh;
   }
 }
 
@@ -2882,6 +2928,9 @@ html[lang="en"] .batch-card .batch-content .content-sec .types-of .type .icon {
   .batch-card .batch-content .content-sec .types-of .type {
     margin: 0;
     margin-bottom: 10px;
+  }
+  .homeBanner .owl-carousel-banner .banner-item .bannerBox {
+    margin-top: 28vh;
   }
 }
 
@@ -3258,7 +3307,7 @@ html[lang="en"] .batch-card .batch-content .content-sec .types-of .type .icon {
 /*
     min-height
 */
-@media (min-height: 1000px) {
+@media (min-height: 1000px) and (max-width: 950px) {
   .innerBanner .breadcrumb-banner {
     max-height: 770px;
     padding-top: 110px;
@@ -3269,6 +3318,12 @@ html[lang="en"] .batch-card .batch-content .content-sec .types-of .type .icon {
   }
   .homeBanner {
     max-height: 770px;
+  }
+  .homeBanner .owl-carousel-banner .banner-item .bannerBox {
+    margin-top: 25vh;
+  }
+  .homeBanner .img-box.logo-img {
+    top: 12vh;
   }
 }
 
